@@ -1,0 +1,176 @@
+
+body{
+background-color: #212123;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Comfortaa', cursive;
+}
+
+.video_about_us{
+  margin-top: 6%;
+  border-radius: 100%;
+}
+
+.main_text_about_us{
+  text-align: center;
+  margin-top: 6%;
+  color: white;
+}
+
+.title_about_us{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.hor_line{
+  width: 60px;
+  color: #838993;
+  text-shadow: 50%;
+}
+
+.citata_about_us{
+  margin-top: 8%;
+}
+
+.citata_about_us{
+  display: flex;
+}
+
+.citata{
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+}
+
+
+blockquote {
+margin: 0;
+padding: 40px;
+color: white;
+position: relative;
+text-align: center;
+border-left-color: #212123 !important;
+}
+blockquote:before, blockquote:after {
+font-size: 45px;
+color: #7c05ab;
+position: absolute;
+height: 2px;
+left: 40px;
+right: 40px;
+line-height: .5;
+background: linear-gradient(to right, #7c05ab 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #7c05ab 55%);
+}
+blockquote:before {
+content: "\201C";
+top: 30px;
+}
+blockquote:after {
+content: "\201D";
+bottom: 30px;
+}
+
+
+.photo_citata {
+  position: relative
+}
+
+.photo_citata img {
+  display: block;
+  border-radius: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.overlay_on_photo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 15px;
+}
+
+.photo_citata:hover .overlay_on_photo {
+  height: 100%;
+}
+
+.text_in_photo {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.circle_about_us{
+  height: auto;
+  margin-top: 1%;
+  width: auto;
+}
+
+.circle_pngin{
+  width: 120px;
+  height: 120px;
+  border-radius: 99%;
+  border-color: white;
+  background-color: transparent;
+  border-width: 5px;
+  border-style: outset;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;a
+}
+
+.circle_about_us_div1:hover .circle_pngin{
+  border-color: #7c05ab;
+  background-color: #2b2b2d;
+  transition-duration: 0.3s;
+}
+
+.circle_about_us_div2:hover .circle_pngin{
+  border-color: #7c05ab;
+  background-color: #2b2b2d;
+  transition-duration: 0.3s;
+}
+
+.circle_about_us_div3:hover .circle_pngin{
+  border-color: #7c05ab;
+  background-color: #2b2b2d;
+  transition-duration: 0.3s;
+}
+
+.circle_about_us_div4:hover .circle_pngin{
+  border-color: #7c05ab;
+  background-color: #2b2b2d;
+  transition-duration: 0.3s;
+}
+
+.circle_pngin i{
+  line-height: 100px;
+  color: white;
+}
+
+.text_under{
+  color: white;
+  text-align: center;
+}
+
+.fulltext_under{
+  color: white;
+  text-align: center;
+
+}
+
+.circle_about_us h4{
+  font-size: 30px;
+}
